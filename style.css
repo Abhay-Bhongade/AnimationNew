@@ -1,0 +1,384 @@
+/* .css-typing p {
+  border-right: 0.15em solid orange;
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+} */
+
+.css-typing p {
+  /* border-right: 0.15em solid orange; */
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  caret-color: transparent;
+}
+
+.css-typing p:nth-child(1) {
+  width: 100em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  opacity: 0;
+  -webkit-animation: type2 2s steps(10, end);
+  animation: type2 4s steps(10, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 10s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  opacity: 0;
+  -webkit-animation: type3 2s steps(400, end),
+    blink 0.5s step-end infinite alternate;
+  animation: type3 2s steps(400, end), blink 0.5s step-end infinite alternate;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; /* adjust delay as needed */
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing1 p {
+  /* border-right: 0.15em solid orange; */
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  caret-color: white;
+}
+
+.css-typing2 p {
+  /* border-right: 0.15em solid orange; */
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  caret-color: white;
+}
+.css-typing3 p {
+  /* border-right: 0.15em solid orange; */
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  caret-color: transparent;
+}
+.css-typing4 p {
+  /* border-right: 0.15em solid orange; */
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  caret-color: transparent;
+}
+.css-typing5 p {
+  /* border-right: 0.15em solid orange; */
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  caret-color: transparent;
+}
+.css-typing p {
+  /* border-right: 0.15em solid orange; */
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.css-typing p:nth-child(1) {
+  width: 100em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 100em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(10, end);
+  animation: type2 2s steps(10, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 100em;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(400, end),
+    blink 0.5s step-end infinite alternate;
+  animation: type3 2s steps(400, end), blink 0.5s step-end infinite alternate;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {
+  width: 100em;
+  -webkit-animation: type 2s steps(400, end);
+  animation: type 2s steps(400, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(5) {
+  width: 100em;
+  opacity: 0;
+  -webkit-animation: type2 9s steps(40, end);
+  animation: type2 9s steps(160, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(6) {
+  width: 100em;
+  opacity: 0;
+  -webkit-animation: type3 11s steps(20, end),
+    blink 0.5s step-end infinite alternate;
+  animation: type3 5s steps(180, end), blink 0.5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    /* border-right: 0.15em solid orange; */
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    /* border-right: 0.15em solid orange; */
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    /* border-right: 0.15em solid orange; */
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    /* border-right: 0.15em solid orange; */
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+.first p {
+  animation: typewriter 4s steps(30) forwards;
+  text-shadow: 0 0 transparent;
+}
+
+.second p {
+  animation: typewriter 4s steps(40) forwards;
+  text-shadow: 0 0 transparent;
+}
+
+.third p {
+  animation: typewriter 6s steps(10) forwards;
+  text-shadow: 0 0 transparent;
+}
+
+.fourth p {
+  animation: typewriter 8s steps(100) forwards;
+  text-shadow: 0 0 transparent;
+}
+
+.fifth p {
+  animation: typewriter 10s steps(10) forwards;
+  text-shadow: 0 0 transparent;
+}
+
+.sixth p {
+  animation: typewriter 12s steps(10) forwards;
+  text-shadow: 0 0 transparent;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.circle-icon {
+  background: #ffc0c0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.chatdiv {
+  margin-left: 1rem !important;
+}
+
+.icon-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+}
+
+.icon-container2 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+}
+
+.box {
+  animation: fadeIn 1s ease forwards;
+  opacity: 0;
+}
+
+.first {
+  animation-delay: 0s;
+}
+
+.second {
+  animation-delay: 1s;
+}
+
+.third {
+  animation-delay: 2s;
+}
+
+.fourth {
+  animation-delay: 3s;
+}
+
+.fifth {
+  animation-delay: 4s;
+}
+
+.sixth {
+  animation-delay: 5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.css-typing p::after {
+  content: "";
+  display: none;
+}

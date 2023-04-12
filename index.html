@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Html and css</title>
+  </head>
+  <body>
+    <!------------------------ navbar  -------------------------->
+    <div class="container-fluid px-5 py-2">
+      <div class="row">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <div>
+            <img src="./Icons/bird.png" alt="birdimage" srcset="" />
+          </div>
+
+          <div
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <div>
+              <i
+                class="fa fa-th-large"
+                aria-hidden="true"
+                style="background-color: lightgrey; color: gray"
+              ></i>
+            </div>
+            <div class="mx-4" style="color: #32efef; font-weight: 700">
+              $4.25
+            </div>
+            <div
+              class="icon-container2 me-1"
+              style="margin-left: 0.7rem; background-color: #ff351f"
+            >
+              <i
+                class="fa-regular fa-face-smile-beam"
+                style="font-size: 1.3rem"
+              ></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------ navbar  -------------------------->
+
+    <!------------------------ chat-container  -------------------------->
+
+    <div class="container-fluid p-4" style="background-color: #f3f5f6">
+      <div class="row">
+        <div class="col-9 mt-3">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            "
+          >
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <button
+                type="button"
+                class="btn"
+                style="
+                  border: 2px solid #fd9e2e;
+                  border-radius: 10px;
+                  padding: 4px 6px 8px 6px;
+                "
+              >
+                <img
+                  src="./Icons//MicrosoftTeams-image (3).png"
+                  alt="userlister"
+                  srcset=""
+                  height="20px"
+                  width="20px"
+                />
+              </button>
+              <h3 class="ms-2">Roundtable</h3>
+            </div>
+            <div>
+              <button
+                type="button"
+                class="btn btn-outline-success"
+                style="padding: 2px 10px"
+              >
+                <img src="./Icons/downloadIcon.png" alt="" srcset="" /> Download
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-secondary ms-2"
+                style="padding: 2px 10px"
+              >
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                Setting
+              </button>
+
+              <img src="./Icons/Medium.png" alt="" srcset="" class="ms-2" />
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mt-4">
+          <div
+            class="btn-group p-0"
+            role="group"
+            aria-label="Basic outlined example"
+            style="margin-left: 9rem; margin-bottom: 10px"
+          >
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              style="padding: 2px 10px"
+            >
+              Member in room:3
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              style="padding: 2px 10px"
+            >
+              <i class="fa-solid fa-user-plus"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-9">
+          <!-- <div class="css-typing">
+            <p>
+              Titus and charlot , welcome.please feel free to use your own
+              language. Lbis will translate for you
+            </p>
+            <p>Nice to meet you both thanks for inviting me</p>
+            <p>Very good it is very convenient</p>
+          </div> -->
+
+          <div class="px-4" style="background-color: #ffffff">
+            <!------------ first div in chat-------------- -->
+            <div
+              style="border-radius: 14px; background-color: #faf1e8"
+              class="p-2 first box"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div
+                    class="icon-container2"
+                    style="margin-left: 0.7rem; background-color: #ff351f"
+                  >
+                    <i
+                      class="fa-regular fa-face-smile-beam"
+                      style="font-size: 1.3rem"
+                    ></i>
+                  </div>
+
+                  <span style="color: #ff351f; margin-left: 0.5rem"
+                    >John Mccall</span
+                  >
+                </div>
+                <div>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (5).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (6).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (4).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                </div>
+              </div>
+              <div class="chatdiv css-typing">
+                <p style="font-weight: 700">
+                  Charlot,coul you share the Documents?
+                </p>
+              </div>
+            </div>
+            <!------------ first div in chat-------------- -->
+            <!------------ second div in chat-------------- -->
+            <div
+              style="border-radius: 14px; background-color: #fff4c9"
+              class="p-2 my-3 second box"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div
+                    class="icon-container2"
+                    style="margin-left: 0.7rem; background-color: #f1c40f"
+                  >
+                    <i
+                      class="fa-regular fa-face-smile-beam"
+                      style="font-size: 1.3rem"
+                    ></i>
+                  </div>
+
+                  <span style="color: #fd9e2e; margin-left: 0.5rem"
+                    >Charlootte Garnier</span
+                  >
+                </div>
+                <div>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (5).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (6).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (4).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                </div>
+              </div>
+              <div class="chatdiv css-typing1">
+                <p style="font-weight: 700">
+                  Yes, I'll share the documents in a moment
+                </p>
+              </div>
+            </div>
+            <!------------ second div in chat-------------- -->
+            <!------------ third div in chat-------------- -->
+            <div
+              style="border-radius: 14px; background-color: #faf1e8"
+              class="p-2 my-3 third box"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div
+                    class="icon-container2"
+                    style="margin-left: 0.7rem; background-color: #ff351f"
+                  >
+                    <i
+                      class="fa-regular fa-face-smile-beam"
+                      style="font-size: 1.3rem"
+                    ></i>
+                  </div>
+
+                  <span style="color: #ff351f; margin-left: 0.5rem"
+                    >John Mccall</span
+                  >
+                </div>
+                <div>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (5).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (6).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (4).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                </div>
+              </div>
+              <div class="chatdiv css-typing2">
+                <p style="font-weight: 700">
+                  There are some new projects we started in the last two weeks.
+                  <!-- Nowt that Titus i sback, we have some yasks ready for you .
+                  <br />
+                  It's not complicated, so you'll pick it up soon. i recommend
+                  you meet with Charlotte and do a rundown together. -->
+                </p>
+              </div>
+            </div>
+            <!------------ third div in chat-------------- -->
+            <!------------ fourth div in chat-------------- -->
+            <div
+              style="border-radius: 14px; background-color: #faf1e8"
+              class="p-2 my-3 fourth box"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div
+                    class="icon-container2"
+                    style="margin-left: 0.7rem; background-color: #ff351f"
+                  >
+                    <i
+                      class="fa-regular fa-face-smile-beam"
+                      style="font-size: 1.3rem"
+                    ></i>
+                  </div>
+
+                  <span style="color: #ff351f; margin-left: 0.5rem"
+                    >John Mccall</span
+                  >
+                </div>
+                <div>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (5).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (6).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (4).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                </div>
+              </div>
+              <div class="chatdiv css-typing3">
+                <p style="font-weight: 700">
+                  Also, to access the task list, I need Json to set up your
+                  <!-- account. He is laready working on it right now. <br />
+                  Once he is done, he will send you and email by tomorrow. There
+                  is a goooglke doc link on our project channel. <br />
+                  THer are some screenshots of the application, please read the
+                  documents, and if you have any questions, <br />
+                  Charlotte will be happy to provide answers for you ok -->
+                </p>
+              </div>
+            </div>
+            <!------------ fourth div in chat-------------- -->
+            <!------------ fifth div in chat-------------- -->
+            <div
+              style="border-radius: 14px; background-color: #fff4c9"
+              class="p-2 my-3 fifth box"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div
+                    class="icon-container2"
+                    style="margin-left: 0.7rem; background-color: #f1c40f"
+                  >
+                    <i
+                      class="fa-regular fa-face-smile-beam"
+                      style="font-size: 1.3rem"
+                    ></i>
+                  </div>
+
+                  <span style="color: #fd9e2e; margin-left: 0.5rem"
+                    >Charlotte Garnier</span
+                  >
+                </div>
+                <div>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (5).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (6).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (4).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                </div>
+              </div>
+              <div class="chatdiv css-typing4">
+                <p style="font-weight: 700">
+                  Charlot,coul you share the Documents?
+                </p>
+              </div>
+            </div>
+            <!------------ fifth div in chat-------------- -->
+            <!------------ six div in chat-------------- -->
+            <div
+              style="border-radius: 14px; background-color: #eef4fa"
+              class="p-2 my-3 sixth box"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div
+                    class="icon-container2"
+                    style="margin-left: 0.7rem; background-color: #7eb0d1"
+                  >
+                    <i
+                      class="fa-regular fa-face-smile-beam"
+                      style="font-size: 1.3rem"
+                    ></i>
+                  </div>
+
+                  <span style="color: #7eb0d1; margin-left: 0.5rem"
+                    >Titus Kitamura</span
+                  >
+                </div>
+                <div>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (5).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (6).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                  <span
+                    ><img
+                      src="./Icons/MicrosoftTeams-image (4).png"
+                      alt=""
+                      srcset=""
+                  /></span>
+                </div>
+              </div>
+              <div class="chatdiv css-typing5">
+                <p style="font-weight: 700">
+                  Charlot,coul you share the Documents?
+                </p>
+              </div>
+            </div>
+            <!------------ six div in chat-------------- -->
+
+            <!------------ type something div in chat-------------- -->
+            <div
+              style="
+                border-radius: 14px;
+                background-color: #ffffff;
+                border: 2px solid gray;
+              "
+              class="p-2 my-3"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  border-bottom: 1px solid rgb(230, 221, 221);
+                  padding-bottom: 20px;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <span style="color: #7eb0d1; margin-left: 0.5rem"
+                    >Type something or record voice message</span
+                  >
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    style="background-color: #032d6c; border-radius: 8px"
+                  >
+                    <i class="fa fa-microphone" aria-hidden="true"></i>
+                    Record
+                  </button>
+                </div>
+              </div>
+
+              <div
+                class=""
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-top: 10px;
+                "
+              >
+                <p style="font-weight: 700" class="mb-0">
+                  <button
+                    type="button"
+                    class="btn btn-outline-success"
+                    style="padding: 2px 10px"
+                  >
+                    <i class="fa fa-microphone-slash" aria-hidden="true"></i>
+                    Auto Record-off
+                  </button>
+                </p>
+                <p class="mb-0">
+                  <button
+                    type="button"
+                    class="btn btn-outline-success"
+                    style="padding: 2px 10px"
+                  >
+                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                    Upload File
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary ms-2"
+                    style="padding: 2px 10px"
+                  >
+                    <i class="fa fa-commenting" aria-hidden="true"></i>
+                    connect via SMS
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary ms-2"
+                    style="padding: 2px 10px"
+                  >
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    connect via Call
+                  </button>
+                </p>
+              </div>
+            </div>
+            <!------------ type something div in chat-------------- -->
+          </div>
+        </div>
+
+        <div
+          class="col-3"
+          style="
+            background-color: #ffffff;
+            width: 22rem;
+            height: 100vh;
+            border-radius: 10px;
+          "
+        >
+          <div
+            style="display: flex; justify-content: start; align-items: center"
+            class="my-3"
+          >
+            <div style="display: inline-block; position: relative">
+              <div
+                style="
+                  background-color: #fd9e2e;
+                  border-radius: 50%;
+                  display: inline-block;
+                  padding: 5px;
+                "
+              >
+                <i
+                  class="fa-regular fa-face-smile-beam"
+                  style="font-size: 1.8rem"
+                ></i>
+              </div>
+              <div
+                style="
+                  position: absolute;
+                  top: 1px;
+                  left: 3px;
+                  width: 60px;
+                  height: 60px;
+
+                  border-radius: 50%;
+                "
+              ></div>
+            </div>
+
+            <div class="ms-3">
+              <h6 class="m-0">Charlotte Garnier</h6>
+              <p class="m-0" style="font-size: 12px">French|She/Her</p>
+            </div>
+          </div>
+          <div
+            style="display: flex; justify-content: start; align-items: center"
+            class="my-3"
+          >
+            <div style="display: inline-block; position: relative">
+              <div
+                style="
+                  background-color: #7eb0d1;
+                  border-radius: 50%;
+                  display: inline-block;
+                  padding: 5px;
+                "
+              >
+                <i
+                  class="fa-regular fa-face-smile-beam"
+                  style="font-size: 1.8rem"
+                ></i>
+              </div>
+              <div
+                style="
+                  position: absolute;
+                  top: 1px;
+                  left: 3px;
+                  width: 60px;
+                  height: 60px;
+
+                  border-radius: 50%;
+                "
+              ></div>
+            </div>
+
+            <div class="ms-3">
+              <h6 class="m-0">Titus Kitamura</h6>
+              <p class="m-0" style="font-size: 12px">Japanese|He/His</p>
+            </div>
+          </div>
+          <div
+            style="display: flex; justify-content: start; align-items: center"
+          >
+            <div style="display: inline-block; position: relative">
+              <div
+                style="
+                  background-color: #ff351f;
+                  border-radius: 50%;
+                  display: inline-block;
+                  padding: 5px;
+                "
+              >
+                <i
+                  class="fa-regular fa-face-smile-beam"
+                  style="font-size: 1.8rem"
+                ></i>
+              </div>
+              <div
+                style="
+                  position: absolute;
+                  top: 1px;
+                  left: 3px;
+                  width: 60px;
+                  height: 60px;
+
+                  border-radius: 50%;
+                "
+              ></div>
+            </div>
+
+            <div class="ms-3">
+              <h6 class="m-0">John Mccall</h6>
+              <p class="m-0" style="font-size: 12px">English|He/His</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="index.js"></script>
+  </body>
+</html>
